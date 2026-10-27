@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8faf9;
+        text-align: center;
+        padding: 50px;
+    }
+
+   h1 {
+    color: #1b5e20;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #2e7d32;
+    font-size: 28px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+   p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.7;
+}
+    
+.projet {
+    background-color: white;
+    max-width: 450px;
+    margin: 35px auto;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e5ebe7;
+}
+.projet h3 {
+    color: #2e7d32;
+}
+
+
+.projet a {
+    display: inline-block;
+    background-color: #2e7d32;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.projet {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.projet:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+.apropos {
+    background-color: white;
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e5ebe7;
+}
+
+.apropos p {
+    margin: 0;
+}
+
+.competences {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.competence {
+    background-color: white;
+    width: 220px;
+    padding: 25px;
+    border-radius: 18px;
+    border: 1px solid #e5ebe7;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.competence h3 {
+    color: #2e7d32;
+    font-size: 22px;
+}
+
+.competence p {
+    font-size: 16px;
+}
+
+.competence:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.competence h3:hover {
+    color: #1b5e20;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.navigation {
+    background-color: #1b5e20;
+    padding: 15px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navigation a:hover {
+    color: #c8e6c9;
+}
+
+.pied-page {
+    margin-top: 60px;
+    padding: 25px;
+    background-color: #e8f5e9;
+    border-radius: 12px;
+    color: #1b5e20;
+    text-align: center;
+}
+
+.pied-page p {
+    font-size: 14px;
+    margin: 5px;
+}
+
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon portfolio</title>
+</head>
+
+<footer class="pied-page">
+    <p>© 2026 — Mon portfolio web</p>
+    <p>Créé avec HTML et CSS</p>
+</footer>
+
+<body>
+<nav class="navigation">
+    <a href="#apropos">À propos</a>
+    <a href="#competences">Compétences</a>
+    <a href="#projets">Projets</a>
+</nav>
+
+    <h1>Bienvenue sur mon portfolio !</h1>
+   <p>Je crée des sites web modernes, élégants et adaptés aux téléphones.</p>
+<h2 id="apropos">À propos de moi</h2>
+<div class="apropos">
+    <p>Je suis un créateur de sites web débutant. J'apprends le HTML et le CSS pour créer des sites modernes et agréables à utiliser.</p>
+</div>
+<h2>Mes compétences</h2>
+
+<div class="competences" id="competences">
+
+    <div class="competence">
+        <h3>HTML</h3>
+        <p>J'apprends à structurer les pages web.</p>
+    </div>
+
+    <div class="competence">
+        <h3>CSS</h3>
+        <p>J'apprends à créer des designs modernes.</p>
+    </div>
+
+    <div class="competence">
+        <h3>Sites mobiles</h3>
+        <p>J'apprends à adapter les sites aux téléphones.</p>
+    </div>
+
+</div>
+
+<h2 id="projets">Mes projets</h2>
+<div class="projet">
+    <h3>Le Petit Gourmet</h3>
+    <p>Un site de restaurant créé en HTML et CSS.</p>
+    <a href="https://lbs-57oo.github.io/le-petit-gourmet/">Découvrir mes projets</a>
+</div>
+</body>
+</html>
